@@ -26,7 +26,7 @@ function renderLicenseBadge(license) {
   } else if (license === "GNU Lesser General Public License v2.1") {
     return "[![License: LGPL v2.1](https://img.shields.io/badge/License-LGPL_v2.1-blue.svg)]";
   }
-}
+};
 
 // TODO: Create a function that returns the license link
 // If there is no license, return an empty string
@@ -56,7 +56,7 @@ function renderLicenseLink(license) {
   } else if (license === "GNU Lesser General Public License v2.1") {
     return "(https://www.gnu.org/licenses/lgpl-2.1)";
   }
-}
+};
 
 // TODO: Create a function that returns the license section of README
 // If there is no license, return an empty string
@@ -66,10 +66,9 @@ function renderLicenseSection(license) {
   } else {
     return `This project has a ${license} license. For details about its restrictions and rules, please follow the link below:  
     ${renderLicenseBadge(data.license)}${renderLicenseLink(license)}  
-    Thank you
     `;
   }
-}
+};
 
 // TODO: Create a function to generate markdown for README
 function generateMarkdown(data) {
@@ -104,17 +103,11 @@ function generateMarkdown(data) {
   ${data.testInstruction}
 
   ## Questions
-  If you have anay questions, please find the repository for this application in GitHub from the username: ${
-    data.gitHub
-  }.  
-  Alternatively, you can click this link: [${
-    data.gitHub
-  }'s GitHub](https://github.com/${data.gitHub}).
+  If you have any questions, please find the repository for this application in GitHub from the username: ${data.gitHub}.  
+  Alternatively, you can click this link: [${data.gitHub}'s GitHub](https://github.com/${data.gitHub}).
 
-  If you have any additional questions, you can reach me by sending an email to ${
-    data.email
-  }. Thank you and look forward to hearing from you! 
+  If you have any additional questions, you can reach me by sending an email to ${data.email}. Thank you and look forward to hearing from you! 
 `;
-}
+};
 
 module.exports = generateMarkdown;
