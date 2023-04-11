@@ -1,5 +1,7 @@
 # README Generator
 
+  Link to video run-through: https://drive.google.com/file/d/1nSIdqRYRQejS1ijM1vxYUjwWqa8imiYn/view
+
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
