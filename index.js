@@ -94,7 +94,6 @@ function init() {
       },
     ])
     .then((answers) => {
-      console.log(answers);
       writeToFile('README.md', answers);
     });
 }

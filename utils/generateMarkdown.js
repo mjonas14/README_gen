@@ -65,7 +65,7 @@ function renderLicenseSection(license) {
     return "";
   } else {
     return `This project has a ${license} license. For details about its restrictions and rules, please follow the link below:  
-    ${renderLicenseBadge(data.license)}${renderLicenseLink(license)}  
+    ${renderLicenseBadge(license)}${renderLicenseLink(license)}  
     `;
   }
 };
@@ -81,7 +81,7 @@ function generateMarkdown(data) {
   
   ## Table of Contents
   1. [Installation](#installation)
-  2. [Usage Information](#usage)
+  2. [Usage Information](#usage-information)
   3. [License](#license)
   4. [Contributing](#contributing)
   5. [Tests](#tests)
