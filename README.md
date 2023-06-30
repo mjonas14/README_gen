@@ -1,11 +1,9 @@
-# README Generator
-
-  Link to video run-through: https://drive.google.com/file/d/1nSIdqRYRQejS1ijM1vxYUjwWqa8imiYn/view
+# React Portfolio
 
   [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
   ## Description
-  The README Generator is an application that allows a programmer to easily generate a README.md for their project. The application works through the command line where the user is asked a few questions requiring inputs and selections, following which the application will automatically generate a formatted README file that can be used in ones GitHub repository. 
+  Welcome to my portfolio. This app was built using React and gives you, the reader, an insight into me and the work I have done. The application has an About Me page, a Portfolio page, a Contact Me page and a Resume page. Please feel free to browse around, as well as contact me if you have any questions or want to reach out for anything. Enjoy!
   
   ## Table of Contents
   1. [Installation](#installation)
@@ -16,10 +14,10 @@
   6. [Questions](#questions)
 
   ## Installation
-  The application requires a download of inquirer version 8.2.4, which can be downloaded through running npm I inquirer@8.2.4 in the command line. 
+  Once the code base has been cloned, run "npm i" in the command line to install all of the dependencies. Once they have been installed you can run "npm run start" to launch the application in your local device. 
 
   ## Usage
-  The user launches the application by running “node index” in the command line. The user will be prompted with questions in the command line for each of the section in the README. All questions but one require written input, with the exception being the “license” section, where you will have to chose from a list of licenses by writing the number corresponding with the desired license from a list. I advise the user to answer the prompts with as much detail as possible. 
+  The application is quite self explanatory. There are four pages that you can explore, each containing descriptions about the page header. 
 
   ## License
   This project has a MIT License license. For details about its restrictions and rules, please follow the link below:  
